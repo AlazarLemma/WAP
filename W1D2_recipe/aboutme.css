@@ -21,8 +21,12 @@
       color: blue;
       background-color: black;
   }
+  h1::first-letter , h2::first-letter , h3::first-letter{
+      font-size: 3vmax;
+  }
   a{
       text-decoration: none;
+      color: red;
   }
   a:hover{
       text-decoration:underline;
@@ -33,4 +37,17 @@
   hr{
       size: 45;
       color: black;
+  }
+  .decriptions{
+      color: goldenrod;
+  }
+  #movie-list{
+
+    transform: rotate(180deg);
+    margin-left: 5vmax;
+
+  }
+  #movie-list > li{
+
+    transform: rotate(-180deg);
   }

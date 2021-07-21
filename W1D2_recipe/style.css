@@ -14,6 +14,7 @@ body{
     color: #404040;
     font:11pt;
     font-family: Georgia,Garamond, serif ;
+    background-attachment: fixed;
 }
 a{
 color: #A4A400;
@@ -43,4 +44,7 @@ h1 span , h2 span{
 }
 #copyright{
     text-align: right;
+}
+pre{
+    color: gray;
 }
