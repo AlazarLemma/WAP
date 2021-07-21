@@ -30,3 +30,7 @@
   a:hover.a{
       display: block;
   }
+  hr{
+      size: 45;
+      color: black;
+  }
