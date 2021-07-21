@@ -1,0 +1,48 @@
+h1{
+    color: #A4A400;
+    font-family: Lucida, saSans Unicode, Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-size: 22pt;
+    font: bold;
+    text-decoration: underline;   
+}
+body{
+    background-color: white;
+    color: #404040;
+    font:11pt;
+    font-family: Georgia,Garamond, serif ;
+}
+a{
+color: #A4A400;
+}
+hr{
+    color: black;
+    size: 100;
+}
+.background{
+    
+    color: black;
+    text-align: left;
+    position: relative;
+    text-indent: 0vh;
+    margin-left: 20;
+    text-indent: 20;
+    font-style: italic;
+    
+}
+
+
+div span{
+
+    background-color: #A4A400;
+
+}
+acd{
+    color: red;
+}
+.pretag{
+    color: #404040;
+}
+h1 span {                        
+    background-color: #f0f0f0; 
+}
