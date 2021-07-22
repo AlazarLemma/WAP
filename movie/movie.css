@@ -1,3 +1,28 @@
+
+#content{
+    position: relative;
+    width: 800px;
+    border: 4px gray solid;
+    border-radius: 20px;
+    margin: auto;
+    background-color: #A2B964;
+}
+
+#left_content{
+position: relative;
+top: auto;
+    float: left;
+    width: 550px;
+    background-image: url('movie-images/background.png');
+    overflow: auto;
+}
+
+#left_header{
+    
+    background-image: url('movie-images/rbg.png');
+    position: inherit;
+    
+}
 body{
     margin: 0%;
     padding: 0%;
@@ -5,8 +30,7 @@ body{
     font-family: Verdana, Tahoma, sans-serif;
     line-height: 1;
     background-image: url('movie-images/background.png');
-    /* text-align: center; */
-    /* justify-content: center; */
+    
 
 }
 
@@ -25,25 +49,6 @@ h1{
     font-size: 24pt;
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-#content{
-    width: 800px;
-    border: 4px gray solid;
-    border-radius: 20px;
-    margin: auto;
-    background-color: #A2B964;
-}
-
-#left_content{
-    float: left;
-    width: 550px;
-    background-image: url('movie-images/background.png');
-    overflow: auto;
-}
-
-#left_header{
-    background-image: url('movie-images/rbg.png');
 }
 
 #number{
@@ -87,9 +92,9 @@ h1{
 }
 
 #right_content{
+    position: absolute;
     display: inline-block;
     width: 250px;
-    /* background-color: #A2B964; */
     font-family: Arial, Helvetica, sans-serif;
     font-size: 8pt;
 }
