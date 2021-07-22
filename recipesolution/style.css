@@ -36,10 +36,15 @@ hr{
 }
 h1 span , h2 span{                        
     background-color: #f0f0f0; 
+    background-image: ;
 }
 #copyright{
     text-align: right;
 }
 pre{
     color: gray;
+}
+p{
+    font-size: ;
+
 }
