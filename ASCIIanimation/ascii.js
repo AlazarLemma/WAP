@@ -9,15 +9,22 @@ window.onload = () => {
   begin = document.getElementById("start");
   end = document.getElementById("stop");
   let turboCheckbox = document.getElementById("turbo");
-    let animationType = ANIMATIONS[selectIteam.value];
+  let animationType = ANIMATIONS[selectIteam.value];
 
+  turboCheckbox.onchange = function(){
+    if(turboCheckbox.checked){
+        speed = 50;
+    }else{
+        speed = 250;
+    }
+};
 
-   document.getElementById('start').onclick=function(){
+   begin.onclick=function(){
     begin.disabled = true;
     end.disabled = false;
     beginAnim();
   };
-  document.getElementById('stop').onclick=function(){
+  end.onclick=function(){
     begin.disabled=false;
     end.disabled-true;
     clearInterval(timeSet);
@@ -33,24 +40,25 @@ window.onload = () => {
 
   fontselect.onchange = function(){
     let val = fontselect.value;
+    console.log(val);
     switch(val){
         case "7":
-            txtArea.style.fontSize = "7pt";
+            areaText.style.fontSize = "7pt";
             break;
         case "10":
-            txtArea.style.fontSize = "12pt";
+            areaText.style.fontSize = "12pt";
             break;
         case "12":
-            txtArea.style.fontSize = "10pt";
+            areaText.style.fontSize = "10pt";
             break;
         case "16":
-            txtArea.style.fontSize = "16pt";
+            areaText.style.fontSize = "16pt";
             break;
         case "24":
-            txtArea.style.fontSize = "24pt";
+            areaText.style.fontSize = "24pt";
             break;
         case "32":
-            txtArea.style.fontSize = "32pt";
+            areaText.style.fontSize = "32pt";
             break;
     }
 
