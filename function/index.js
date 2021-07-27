@@ -44,8 +44,8 @@ function sum(arr){
     for(let i=0;i<arr.length;i++){
                     sum+=arr[i];
     }return sum;
-
 }
+
 
 function multiply(a){
 
@@ -57,12 +57,23 @@ for(let i=0;i<a.length;i++){
 }return multip;
 
 }
+
+
 function reverse(s){
     let split=s.split("");
     let value=split.reverse();
 
         return value.join("");
 }
+
+let s="hello";
+let splited=s.split("");
+let b=splited.reduce((element, i)=>i + element)
+console.log(b);
+
+
+
+
 function findLongestWords(arr){
       let max=0;
         let result=0;
@@ -87,6 +98,10 @@ function filterLongWords(arr, a){
    }return rsult;
 
 }
+
+
+
+
  function multiplyfield(arr){
      let b=[];
     b = arr.map(function(elem, i, array) {
