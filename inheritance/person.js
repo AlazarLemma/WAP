@@ -19,8 +19,8 @@ var Teacher= function(){};
 
 Teacher.prototype = new Person();
 
-Teacher.prototype.teachs = function(subject){
-    console.log(this.name + " is now teaching " + subject);
+Teacher.prototype.giving = function(subject){
+    console.log(this.name + " giving " + subject);
 };
 
 
@@ -29,9 +29,8 @@ me.initialize("John", 25);
 me.learn("Inheritance");
 
 
-var joseph = new Teacher();
-joseph.initialize("Joseph", 60);
-joseph.teachs("FPP");
+var obina = new Teacher();
+obina.initialize("Obina Kalu", 60);
+obina.teachs("Data base");
 
-console.log("___________________________");
-console.log(joseph.__proto__);
+console.log(obina.__proto__);
