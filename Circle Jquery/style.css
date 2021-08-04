@@ -1,0 +1,25 @@
+
+html{
+    height: 100%;
+}
+
+#main-container{
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    width: 1000px;
+    position:fixed;
+   
+}
+.circle{
+
+    position: absolute;
+    width: 500px;
+    top: auto;
+}
+#input-container{
+    display: grid;
+    border-top: solid 1px black;
+    background-color: green
+
+}
