@@ -1,5 +1,7 @@
-function add(a,b){
-    return a+b;
+
+const  h=true;
+function pi(){
+    return h=false;
  }
  function substract(a,b){
      return a-b;
@@ -11,7 +13,7 @@ function add(a,b){
      return a/b;
  }
  const pi=3.14;
-exports.add=add;
+exports.h=h;
 exports.substract=substract;
 exports.multiply=multiply;
 exports.divide=divide;
