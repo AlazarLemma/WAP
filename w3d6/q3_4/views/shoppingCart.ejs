@@ -1,0 +1,25 @@
+<%-include ("navigator")%>
+
+    <!-- <ul>
+    <%for (let pr of products  ) {%>
+        <li><%=pr.name%></li>
+    <li><%=pr.price%></li>
+    <li><%=pr.quantity%></li>
+        <br>
+    <%}%>
+    
+ </ul> -->
+ <table>
+
+   <th>Name</th>
+   <th>Price</th>
+   <th>amount</th>
+   <%for (let pr of products  ) {%>
+    <tr>
+    <td><%=pr.name%></td>
+       <td><%=pr.price%></td>
+       <td><%=pr.quantity%></td>
+       </tr>
+       <%}%>
+ </table>   
+ <%-include ("end")%>
