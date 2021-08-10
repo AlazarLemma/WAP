@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<form action="/add" method="POST">
+    <label for="name">Key <input type="text" name="Key" id=""></label>
+    <label for="name">Value <input type="text" name="Value" id=""></label>
+    <button type="submit">submitQuery</button>
+</form>
+
+<table>
+    <th>Key</th>
+    <th>Value</th>
+    <% for(let key in cookies) {%>
+        <tr>
+            <td><%=key%></td>
+            <td><%=cookies[key]%></td>          
+        </tr>
+    <%}%>
+</table>
+
+
+</body>
+</html>
